@@ -9,6 +9,8 @@ def check(str1):
             return "invalid"
         if len(list1)==0:
            return "valid"
+        else:
+           return "missing format"
 
 b=input('enter the string')
 a=check(b)
